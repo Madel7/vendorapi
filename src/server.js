@@ -181,7 +181,7 @@ app.use(helmet());
 // ── CORS ──────────────────────────────────────────────────────
 const allowedOrigins = (
   process.env.CORS_ORIGINS ||
-  "http://localhost:3000,https://vm-o814811rbdygiycne2z131.vusercontent.net"
+  "http://localhost:3000,https://vm-o814811rbdygiycne2z131.vusercontent.net,https://vendorapi-production.up.railway.app"
 )
   .split(",")
   .map((o) => o.trim());
